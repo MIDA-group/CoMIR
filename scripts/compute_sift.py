@@ -43,7 +43,7 @@ else:
 # The results will be stored in a csv file
 f = open(result, "w")
 # The transformation matrix is saved in math format (y-axis first, then x-axis)
-f.write("idx,fileA,fileB,m00,m10,m01,m11,m02,m12,cost\n")
+f.write("idx,fileA,fileB,m00,m10,m01,m11,m02,m12,cost,success\n")
 print("The results will be stored in %s!" % result)
 print
 
@@ -120,18 +120,27 @@ for i in range(N):
         # Register images
         rigid = newArray(Double.TYPE, (6,))
         model.toArray(rigid)
-        line = "%d,%s,%s,%lf,%lf,%lf,%lf,%lf,%lf,%lf\n" % (
+        line = "%d,%s,%s,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%d\n" % (
             i, list1[i], list2[i],
             rigid[0], rigid[1],
             rigid[2], rigid[3],
             rigid[4], rigid[5],
-            model.cost
+            model.cost, 1
         )
         f.write(line)
         print("Done.")
         print
     else:
+        line = "%d,%s,%s,%lf,%lf,%lf,%lf,%lf,%lf,%lf,%d\n" % (
+            i, list1[i], list2[i],
+            1, 0,
+            0, 1,
+            0, 0,
+            model.cost, 0
+        )
+        f.write(line)
         print("Some problem occured for image pair %d..." % (i+1))
+        print
 
 f.close()
 print("DONE.")
