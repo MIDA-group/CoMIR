@@ -42,6 +42,7 @@ else:
 # Resulting CSV file
 # The results will be stored in a csv file
 f = open(result, "w")
+# The transformation matrix is saved in math format (y-axis first, then x-axis)
 f.write("idx,fileA,fileB,m00,m10,m01,m11,m02,m12,cost\n")
 print("The results will be stored in %s!" % result)
 print
@@ -117,13 +118,13 @@ for i in range(N):
     if modelFound:
         print("SUCCESS! Saving results...")
         # Register images
-        rigid = newArray(Double.TYPE, (2, 3))
-        model.toMatrix(rigid)
+        rigid = newArray(Double.TYPE, (6,))
+        model.toArray(rigid)
         line = "%d,%s,%s,%lf,%lf,%lf,%lf,%lf,%lf,%lf\n" % (
             i, list1[i], list2[i],
-            rigid[0][0], rigid[1][0],
-            rigid[0][1], rigid[1][1],
-            rigid[0][2], rigid[1][2],
+            rigid[0], rigid[1],
+            rigid[2], rigid[3],
+            rigid[4], rigid[5],
             model.cost
         )
         f.write(line)
