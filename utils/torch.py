@@ -49,9 +49,11 @@ def activation_decay(tensors, p=2., device=None):
     if not isinstance(tensors, list):
         tensors = [tensors]
     loss = torch.tensor(1.0, device=device)
+    Z = 0
     for tensor in tensors:
-        loss += torch.mean(tensor.abs() if p == 1. else tensor.pow(p)).to(device)
-    return loss
+        Z += tensor.numel()
+        loss += torch.sum(tensor.pow(p).abs()).to(device)
+    return loss / Z
 
 def batch_rotate_p4(batch, k, device=None):
     """Rotates by k*90 degrees each sample in a batch.
