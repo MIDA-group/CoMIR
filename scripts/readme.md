@@ -16,10 +16,9 @@ $ fiji --ij2 --run scripts/compute_sift.py 'pathA="/path/*_A.png",pathB="/path/*
 ### Convert N channels (e.g. RGB) images to grayscale (N-d to 1-d)
 
 **Description:** Converts multichannel images, for instance RGB images, to grayscale.
-The transformation is done by computing the principal components of a pair of images
-and then reducing the dimension of both images. The new images keep the same name and
-are exported in the output folder. The output folder is created if it does not exist.
-The images sets are sorted alphabetically.
+The transformation is done by computing the principal components of each image per
+pixel. The new images keep the same name and  are exported in the output folder. The
+output folder is created if it does not exist. The images sets are sorted alphabetically.
 
 **Requirements:** requirements.txt contains the needed python packages.
 

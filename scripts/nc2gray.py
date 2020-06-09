@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(
     description="Converts multi-channel (e.g. RGB) images to grayscale."
 )
 parser.add_argument("path", type=str,
-                   help="the path to the set of images too convert.")
+                   help="the path to the set of images to convert.")
 parser.add_argument("exportPath", type=str,
                    help="the path to export the images to.")
 args = parser.parse_args()
