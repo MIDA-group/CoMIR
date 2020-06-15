@@ -17,8 +17,6 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-...
-
 This repository gives you access to the code necessary to:
 * Train a Neural Network for converting images in a common latent space.
 * Register images that were converted in the common latent space.
@@ -32,8 +30,8 @@ We use two datasets:
 ## Reproduction of the results
 
 All the results related to the Zurich sattelite images dataset can be reproduced
-with the train-zurich.ipynb notebook. For reproducing the biological dataset
-follow the instructions below:
+with the train-zurich.ipynb notebook. For reproducing the results linked to the
+biomedical dataset follow the instructions below:
 
 **Important:** for each script make sure you update the paths to load the correct
 datasets and export the results in your favorite directory.
