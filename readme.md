@@ -6,6 +6,7 @@
 </p>
 <h1 align="center">CoMIR: <b>Co</b>ntrastive <b>M</b>ultimodal <b>I</b>mage <b>R</b>epresentation for Registration Framework</h1>
 <h4 align="center">🖼 Registration of images in different modalities with Deep Learning 🤖</h4>
+<h4 align="center"><b><a href="mailto:nicolas.pielawski@it.uu.se">Nicolas Pielawski</a>, <a href="mailto:elisabeth.wetzer@it.uu.se">Elisabeth Wetzer</a></b>, <a href="mailto:johan.ofverstedt@it.uu.se">Johan Öfverstedt</a>, <a href="mailto:jiahao.lu@it.uu.se">Jiahao Lu</a>, <a href="mailto:carolina.wahlby@it.uu.se">Carolina Wählby</a>, <a href="mailto:joakim.lindblad@it.uu.se">Joakim Lindblad</a> and <a href="natasa.sladoje@it.uu.se">Nataša Sladoje</a></h4>
 
 ## Table of Contents
 
@@ -123,4 +124,4 @@ Anonymized@article{pielawski2020comir,
 ```
 
 ## Acknowledgements
-We would like to thank Prof. Kevin Eliceiri (Laboratory for Optical and Computational Instrumentation (LOCI) at the University of Wisconsin-Madison) and his team for their support and kindly providing the dataset of brightfield and second harmonic generation imaging of breast tissue microarray cores.
+We would like to thank Prof. Kevin Eliceiri ([Laboratory for Optical and Computational Instrumentation (LOCI)](https://eliceirilab.org/) at the University of Wisconsin-Madison) and his team for their support and kindly providing the dataset of brightfield and second harmonic generation imaging of breast tissue microarray cores.
