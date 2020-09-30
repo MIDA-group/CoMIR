@@ -30,7 +30,7 @@ images from different microscopes, such that the information in each image is co
 
 Here are three registrations of images coming from two different microscopes (Bright-Field and Second-Harmonic Generation) as an example:
 <div align="center">
-  <a href="https://youtu.be/zpcgnqcQgqM"><img src="http://img.youtube.com/vi/zpcgnqcQgqM/0.jpg" alt="Registration of three different images" width="300"></a>
+  <a href="https://youtu.be/zpcgnqcQgqM"><img src="resources/registration.gif" alt="Registration of three different images" width=400><p>🎬 HD version on YouTube</p></a>
 </div>
 
 This repository gives you access to the code necessary to:
@@ -74,7 +74,7 @@ When enabled, the correlation between a rotated CoMIR and the non-rotated one is
 to 100% for any angle.
 
 <div align="center">
-  <a href="https://youtu.be/iN5GlPWFZ_Q"><img src="http://img.youtube.com/vi/iN5GlPWFZ_Q/0.jpg" alt="Rotation equivariance animation" width="300"></a>
+  <a href="https://youtu.be/iN5GlPWFZ_Q"><img src="resources/rotation_equivariance.gif" alt="Rotation equivariance animation" width=400><p>🎬 HD version on YouTube</p></a>
 </div>
 
 ## Reproduction of the results
