@@ -10,8 +10,11 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Example](#example)
-- [Quick Start Guide](#quick-start-guide)
+- [How does it work?](#how-does-it-work)
+- [Key findings of the paper](#key-findings-of-the-paper)
+- [Datasets](#datasets)
+- [Animated figures](#animated-figures)
+- [Reproduction of the results](#reproduction-of-the-results)
 - [Scripts](#scripts)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
@@ -24,7 +27,7 @@ This is useful to extract more information than by using each individual
 images. We perform multimodal image registration, where we succesfully align
 images from different microscopes, such that the information in each image is completely different.
 
-Here are three registration of images coming from two different microscopes (Bright-Field and Second-Harmonic Generation) as an example:
+Here are three registrations of images coming from two different microscopes (Bright-Field and Second-Harmonic Generation) as an example:
 <div align="center">
   <a href="https://youtu.be/zpcgnqcQgqM"><img src="http://img.youtube.com/vi/zpcgnqcQgqM/0.jpg" alt="Registration of three different images" width="300"></a>
 </div>
