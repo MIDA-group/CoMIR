@@ -39,9 +39,9 @@ This repository gives you access to the code necessary to:
 
 ## How does it work?
 
-We combined a state-of-the-art artificial neural network to transform the input
-images into a latent space representation, which we baptized CoMIR. The
-CoMIRs are crafted such that they can aligned with the help of classical
+We combined a state-of-the-art artificial neural network ([tiramisu](https://github.com/npielawski/pytorch_tiramisu/))
+to transform the input images into a latent space representation, which we baptized
+CoMIR. The CoMIRs are crafted such that they can aligned with the help of classical
 registration methods.
 
 The figure below depicts our pipeline:
