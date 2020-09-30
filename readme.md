@@ -54,9 +54,9 @@ The figure below depicts our pipeline:
 * 📉It is possible to use contrastive learning and integrate equivariance constraints during training.
 * 🖼 CoMIRs can be aligned succesfully using classical registration methods.
 * 🌀The CoMIRs __are__ rotation (C4) equivariant ([youtube animation](https://youtu.be/iN5GlPWFZ_Q)).
-* 🤖Using GANs to generate cross-modality images, and align those did not work.
+* 🤖Using GANs to generate cross-modality images, and aligning those did not work.
 * 🌱If the weights of the CNN are initialized with a fixed seed, the trained CNN will generate very similar CoMIRs every time (correlation between 70-96%, depending on other factors).
-* 🦾Our method performed better than Mutual Information, the previous state of the art, GANs and we often performed better than human annotators.
+* 🦾Our method performed better than Mutual Information-based registration, the previous state of the art, GANs and we often performed better than human annotators.
 * 👭Our method requires aligned pairs of images during training, if this condition cannot be satisfied, non-learning methods (such as Mutual Information) must be used.
 
 ## Datasets
@@ -70,7 +70,7 @@ We used two datasets:
 The video below demonstrates how we achieve rotation equivariance by displaying
 CoMIRs originating from two neural networks. One was trained with the C4
 (rotation) equivariance constrained disabled, the other one had it enabled.
-When enabled, the correlation between a rotated CoMIR and the non-rotated one is closed
+When enabled, the correlation between a rotated CoMIR and the non-rotated one is close
 to 100% for any angle.
 
 <div align="center">
@@ -124,4 +124,4 @@ Anonymized@article{pielawski2020comir,
 ```
 
 ## Acknowledgements
-We would like to thank Prof. Kevin Eliceiri ([Laboratory for Optical and Computational Instrumentation (LOCI)](https://eliceirilab.org/) at the University of Wisconsin-Madison) and his team for their support and kindly providing the dataset of brightfield and second harmonic generation imaging of breast tissue microarray cores.
+We would like to thank Prof. Kevin Eliceiri ([Laboratory for Optical and Computational Instrumentation (LOCI)](https://eliceirilab.org/) at the University of Wisconsin-Madison) and his team for their support and for kindly providing the dataset of brightfield and second harmonic generation imaging of breast tissue microarray cores.
