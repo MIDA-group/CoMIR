@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/python-3.6+-blue.svg?style=flat-square)](https://www.python.org/download/releases/3.6.0/) 
 
 <p align="center">
-  <img src="resources/comir_32.png" style="image-rendering: pixelated;" width="64" height="64" />
+  <img src="resources/comir_32.png" style="image-rendering: pixelated;" width=128 />
 </p>
 <h1 align="center">CoMIR: <b>Co</b>ntrastive <b>M</b>ultimodal <b>I</b>mage <b>R</b>epresentation for Registration Framework</h1>
 <h4 align="center">🖼 Registration of images in different modalities with Deep Learning 🤖</h4>
