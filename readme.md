@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/MIDA-group/CoMIR?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![](https://img.shields.io/badge/python-3.6+-blue.svg?style=flat-square)](https://www.python.org/download/releases/3.6.0/) 
 
 <p align="center">
