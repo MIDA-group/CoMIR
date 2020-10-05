@@ -25,8 +25,8 @@
 [Image registration](https://en.wikipedia.org/wiki/Image_registration) is the
 process by which multiple images are aligned in the same coordinate system.
 This is useful to extract more information than by using each individual
-images. We perform multimodal image registration, where we succesfully align
-images from different microscopes, such that the information in each image is completely different.
+images. We perform rigid multimodal image registration, where we succesfully align
+images from different microscopes, even though the information in each image is completely different.
 
 Here are three registrations of images coming from two different microscopes (Bright-Field and Second-Harmonic Generation) as an example:
 <div align="center">
@@ -41,7 +41,7 @@ This repository gives you access to the code necessary to:
 
 We combined a state-of-the-art artificial neural network ([tiramisu](https://github.com/npielawski/pytorch_tiramisu/))
 to transform the input images into a latent space representation, which we baptized
-CoMIR. The CoMIRs are crafted such that they can aligned with the help of classical
+CoMIR. The CoMIRs are crafted such that they can be aligned with the help of classical
 registration methods.
 
 The figure below depicts our pipeline:
@@ -53,7 +53,7 @@ The figure below depicts our pipeline:
 
 * 📉It is possible to use contrastive learning and integrate equivariance constraints during training.
 * 🖼 CoMIRs can be aligned succesfully using classical registration methods.
-* 🌀The CoMIRs __are__ rotation (C4) equivariant ([youtube animation](https://youtu.be/iN5GlPWFZ_Q)).
+* 🌀The CoMIRs are rotation equivariant ([youtube animation](https://youtu.be/iN5GlPWFZ_Q)).
 * 🤖Using GANs to generate cross-modality images, and aligning those did not work.
 * 🌱If the weights of the CNN are initialized with a fixed seed, the trained CNN will generate very similar CoMIRs every time (correlation between 70-96%, depending on other factors).
 * 🦾Our method performed better than Mutual Information-based registration, the previous state of the art, GANs and we often performed better than human annotators.
@@ -79,7 +79,7 @@ to 100% for any angle.
 
 ## Reproduction of the results
 
-All the results related to the Zurich sattelite images dataset can be reproduced
+All the results related to the Zurich satellite images dataset can be reproduced
 with the train-zurich.ipynb notebook. For reproducing the results linked to the
 biomedical dataset follow the instructions below:
 
