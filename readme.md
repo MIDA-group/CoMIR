@@ -8,6 +8,11 @@
 <h4 align="center">🖼 Registration of images in different modalities with Deep Learning 🤖</h4>
 <h4 align="center"><b><a href="mailto:nicolas.pielawski@it.uu.se">Nicolas Pielawski</a>, <a href="mailto:elisabeth.wetzer@it.uu.se">Elisabeth Wetzer</a></b>, <a href="mailto:johan.ofverstedt@it.uu.se">Johan Öfverstedt</a>, <a href="mailto:Jiahao.Lu.2199@student.uu.se">Jiahao Lu</a>, <a href="mailto:carolina.wahlby@it.uu.se">Carolina Wählby</a>, <a href="mailto:joakim.lindblad@it.uu.se">Joakim Lindblad</a> and <a href="mailto:natasa.sladoje@it.uu.se">Nataša Sladoje</a></h4>
 
+Code of the NeurIPS 2020 paper: [CoMIR: Contrastive Multimodal Image Representation for Registration](https://proceedings.neurips.cc/paper/2020/file/d6428eecbe0f7dff83fc607c5044b2b9-Paper.pdf)
+
+- [Pre-print version on arXiv](https://arxiv.org/abs/2006.06325)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -113,13 +118,18 @@ The script folder contains scripts useful for running the experiments, but also
 notebooks for generating some of the figures appearing in the paper.
 
 ## Citation
-Arxiv (preprint) version:
+NeurIPS 2020
 ```
-Anonymized@article{pielawski2020comir,
-  title={CoMIR: Contrastive Multimodal Image Representation for Registration},
-  author={Pielawski, Nicolas and Wetzer, Elisabeth and {\"O}fverstedt, Johan and Lu, Jiahao and W{\"a}hlby, Carolina and Lindblad, Joakim and Sladoje, Nata{\v{s}}a},
-  journal={arXiv preprint arXiv:2006.06325},
-  year={2020}
+@inproceedings{pielawski2020comir,
+ author = {Pielawski, Nicolas and Wetzer, Elisabeth and \"{O}fverstedt, Johan and Lu, Jiahao and W\"{a}hlby, Carolina and Lindblad, Joakim and Sladoje, Nata{\v{s}}a},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {18433--18444},
+ publisher = {Curran Associates, Inc.},
+ title = {{CoMIR}: Contrastive Multimodal Image Representation for Registration},
+ url = {https://proceedings.neurips.cc/paper/2020/file/d6428eecbe0f7dff83fc607c5044b2b9-Paper.pdf},
+ volume = {33},
+ year = {2020}
 }
 ```
 
