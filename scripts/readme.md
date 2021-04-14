@@ -1,5 +1,9 @@
 ## Scripts
 
+### MI registration
+
+The scripts to evaluate the Mutual Information (MI) registration are in the MI_registration folder.
+
 ### Compute SIFT
 
 **Description:** Computes the SIFT features in two sets of images and finds the pairwise
