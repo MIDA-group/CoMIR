@@ -9,7 +9,7 @@
 <h4 align="center"><b><a href="mailto:nicolas.pielawski@it.uu.se">Nicolas Pielawski</a>, <a href="mailto:elisabeth.wetzer@it.uu.se">Elisabeth Wetzer</a></b>, <a href="mailto:johan.ofverstedt@it.uu.se">Johan Öfverstedt</a>, <a href="mailto:Jiahao.Lu.2199@student.uu.se">Jiahao Lu</a>, <a href="mailto:carolina.wahlby@it.uu.se">Carolina Wählby</a>, <a href="mailto:joakim.lindblad@it.uu.se">Joakim Lindblad</a> and <a href="mailto:natasa.sladoje@it.uu.se">Nataša Sladoje</a></h4>
 
 Code of the NeurIPS 2020 paper: [CoMIR: Contrastive Multimodal Image Representation for Registration](https://proceedings.neurips.cc/paper/2020/file/d6428eecbe0f7dff83fc607c5044b2b9-Paper.pdf)
-
+- [NeurIPS Abstract](https://proceedings.neurips.cc/paper/2020/hash/d6428eecbe0f7dff83fc607c5044b2b9-Abstract.html) page which lets you download *Supplemental material* as well
 - [Pre-print version on arXiv](https://arxiv.org/abs/2006.06325)
 
 
