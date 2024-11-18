@@ -67,7 +67,7 @@ The figure below depicts our pipeline:
 ## Datasets
 
 We used two datasets:
-* Zurich Summer Dataset: https://sites.google.com/site/michelevolpiresearch/data/zurich-dataset
+* Zurich Summer Dataset: https://zenodo.org/records/5914759
 * Multimodal Biomedical Dataset for Evaluating Registration Methods: https://zenodo.org/record/3874362
 
 ## Animated figures
